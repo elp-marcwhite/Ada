@@ -3,15 +3,11 @@
         <element attributes="encode_utf8=false" label="Support Account Manager" max_length="32" name="u_support_account_manager" reference="sys_user" type="reference"/>
         <element label="Use logo on reports" max_length="40" name="u_use_logo" type="boolean"/>
         <element attributes="encode_utf8=false" hint="Level 2 / Level 3 engineer who continuously tracks key metrics and sentiment data to proactively detect issues affecting IT services. These roles will exist in multiple IT service and product areas and contribute to the &#13;&#10;development of improvement plans in partnership with other IT teams. As the steward of the DEX Score, the Proactive Analyst empowers service teams to identify and resolve problems before employees even become aware of them." label="DEX Proactive Analyst" max_length="32" name="u_proactive_analyst" reference="sys_user" reference_qual="u_nexthinker!=true^u_ellipster!=true^active=true^EQ" reference_qual_condition="u_nexthinker!=true^u_ellipster!=true^active=true^EQ" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Agenda item 3" max_length="40" name="u_agenda_3" type="string"/>
         <element attributes="encode_utf8=false" label="Nexthink Admin" max_length="32" name="u_nexthink_admin" reference="sys_user" reference_qual="u_nexthinker!=true^u_ellipster!=true^active=true^EQ" reference_qual_condition="u_nexthinker!=true^u_ellipster!=true^active=true^EQ" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Agenda item 5" max_length="40" name="u_agenda_5" type="string"/>
         <element attributes="encode_utf8=false" hint="VP or CTO responsible for the success of DEXOps transformation across the organization as well as to enhance it.  The DEX Sponsor is a strategic role that communicates value from Digital Employee Experience to the Company Board of Directors and C-suite." label="DEX Sponsor" max_length="32" name="u_dex_coe_officer_lead" reference="sys_user" reference_qual="u_ellipster!=true^u_nexthinker!=true^active=true^EQ" reference_qual_condition="u_ellipster!=true^u_nexthinker!=true^active=true^EQ" type="reference"/>
         <element attributes="encode_utf8=false" label="DEX Technical Analyst" max_length="32" name="u_technical_analyst" reference="sys_user" reference_qual="u_nexthinker!=true^u_ellipster!=true^active=true^EQ" reference_qual_condition="u_nexthinker!=true^u_ellipster!=true^active=true^EQ" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Accelerate Champion" max_length="40" name="u_accelerate_champion" reference="sys_user" reference_qual="companySAMEAScompany^ORu_nexthinker=true^EQ" reference_qual_condition="companySAMEAScompany^ORu_nexthinker=true^EQ" type="reference"/>
         <element attributes="encode_utf8=false" label="MSP - Time  Materials" max_length="32" name="u_msp_time_materials" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="u_description" type="string"/>
-        <element attributes="encode_utf8=false" label="Accelerate Expert" max_length="32" name="u_accelerate_expert" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="MSP - Enhanced Support" max_length="32" name="u_msp_enhanced_support" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="PROD Status page URL" max_length="1024" name="u_status_page_url" type="url"/>
         <element attributes="encode_utf8=false" label="Customer Success Manager" max_length="32" name="u_customer_success_manager" reference="sys_user" reference_qual="active=true^u_nexthinker=true^title=Customer Success Manager^EQ" reference_qual_condition="active=true^u_nexthinker=true^title=Customer Success Manager^EQ" type="reference"/>
@@ -26,7 +22,7 @@
                 <element inactive_on_update="false" label="main" sequence="0" value="main"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="DEV instance name" max_length="40" name="u_dev_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="-- None --" label="DEV instance name" max_length="40" name="u_dev_name" type="string"/>
         <element attributes="encode_utf8=false" label="NXT Account Exec" max_length="32" name="u_account_owner" reference="sys_user" reference_qual="active=true^u_nexthinker=true^titleLIKEAccount^EQ" reference_qual_condition="active=true^u_nexthinker=true^titleLIKEAccount^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="DEV MTP Cluster" max_length="40" name="u_dev_mtp_cluster" type="string">
             <choice>
@@ -34,10 +30,8 @@
                 <element inactive_on_update="false" label="main" value="main"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Agenda item 6" max_length="40" name="u_agenda_6" type="string"/>
         <element attributes="encode_utf8=false" label="Solutions Consultant" max_length="32" name="u_solutions_consultant" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="Implementer" max_length="32" name="u_platform_builder" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Agenda item 4" max_length="40" name="u_agenda_4" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="DEV Cluster name" max_length="40" name="u_dev_cluster_name" type="string"/>
         <element attributes="encode_utf8=false" label="Time &amp; Materials" max_length="32" name="u_time_materials" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Key Success Imperative 3" max_length="120" name="u_ksi_3" type="string"/>
@@ -50,7 +44,6 @@
         <element attributes="edge_encryption_enabled=true" label="DEV Region" max_length="40" name="u_dev_region" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="PROD instance name" max_length="40" name="u_prod_name" type="string"/>
         <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Value Subcategory" max_length="1024" name="u_value_subcategory" reference="u_value_category" type="glide_list"/>
-        <element attributes="encode_utf8=false" label="HyperCare" max_length="32" name="u_hypercare" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="UNKNOWN" label="PROD Region" max_length="40" name="u_region" type="string">
             <choice>
                 <element inactive_on_update="false" label="eu-west-3" value="eu-west-3"/>
@@ -66,51 +59,45 @@
             </choice>
         </element>
         <index name="index">
-            <element name="u_accelerate_expert"/>
-        </index>
-        <index name="index2">
             <element name="u_account_owner"/>
         </index>
-        <index name="index3">
+        <index name="index2">
             <element name="u_customer_success_manager"/>
         </index>
-        <index name="index4">
+        <index name="index3">
             <element name="u_dex_coe_officer_lead"/>
         </index>
-        <index name="index5">
-            <element name="u_hypercare"/>
-        </index>
-        <index name="index6">
+        <index name="index4">
             <element name="u_managed_services_resourcing"/>
         </index>
-        <index name="index7">
+        <index name="index5">
             <element name="u_msp_enhanced_support"/>
         </index>
-        <index name="index8">
+        <index name="index6">
             <element name="u_msp_time_materials"/>
         </index>
-        <index name="index9">
+        <index name="index7">
             <element name="u_nexthink_admin"/>
         </index>
-        <index name="index10">
+        <index name="index8">
             <element name="u_platform_builder"/>
         </index>
-        <index name="index11">
+        <index name="index9">
             <element name="u_proactive_analyst"/>
         </index>
-        <index name="index12">
+        <index name="index10">
             <element name="u_sentiment_analyst"/>
         </index>
-        <index name="index13">
+        <index name="index11">
             <element name="u_solutions_consultant"/>
         </index>
-        <index name="index14">
+        <index name="index12">
             <element name="u_support_account_manager"/>
         </index>
-        <index name="index15">
+        <index name="index13">
             <element name="u_technical_analyst"/>
         </index>
-        <index name="index16">
+        <index name="index14">
             <element name="u_time_materials"/>
         </index>
     </element>
