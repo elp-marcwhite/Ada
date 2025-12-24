@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_proactive_analyst" label="DEX Proactive Analyst" language="en" table="core_company">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_proactive_analyst</element>
+            <help/>
+            <hint>Level 2 / Level 3 engineer who continuously tracks key metrics and sentiment data to proactively detect issues affecting IT services. These roles will exist in multiple IT service and product areas and contribute to the &#13;
+development of improvement plans in partnership with other IT teams. As the steward of the DEX Score, the Proactive Analyst empowers service teams to identify and resolve problems before employees even become aware of them.</hint>
+            <label>DEX Proactive Analyst</label>
+            <language>en</language>
+            <name>core_company</name>
+            <plural>DEX Proactive Analysts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-05 20:22:07</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>DEX Proactive Analyst</sys_name>
+            <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+            <sys_update_name>sys_documentation_core_company_u_proactive_analyst_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-11 20:08:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

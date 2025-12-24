@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Ratings" section_id="54f5709893170210ed10b6918bba1046" sys_domain="global" table="u_ada_customer_use_cases" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ratings</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-05 16:26:10</sys_created_on>
+            <sys_id>0406f89893170210ed10b6918bba10e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Ratings" display_value="Ratings" name="u_ada_customer_use_cases" sys_domain="global" view="Default view">54f5709893170210ed10b6918bba1046</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-05 16:26:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Ratings</caption>
+            <header>false</header>
+            <name>u_ada_customer_use_cases</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-05 16:25:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54f5709893170210ed10b6918bba1046</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_ada_customer_use_cases</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+            <sys_update_name>sys_ui_section_54f5709893170210ed10b6918bba1046</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-05 16:25:54</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ada">ca579cf693b60210ed10b6918bba104e</application>
+        <file_path/>
+        <instance_id>34d147931b1a3d50c84543f4bd4bcb6c</instance_id>
+        <instance_name>dev210062</instance_name>
+        <name>sys_ui_section_54f5709893170210ed10b6918bba1046</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Ratings" section_id="54f5709893170210ed10b6918bba1046" sys_domain="global" table="u_ada_customer_use_cases" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_ratings</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-05 16:26:10</sys_created_on><sys_id>0406f89893170210ed10b6918bba10e4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Ratings" display_value="Ratings" name="u_ada_customer_use_cases" sys_domain="global" view="Default view">54f5709893170210ed10b6918bba1046</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-05 16:26:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Ratings</caption><header>false</header><name>u_ada_customer_use_cases</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-05 16:25:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>54f5709893170210ed10b6918bba1046</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ada_customer_use_cases</sys_name><sys_overrides/><sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package><sys_policy/><sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope><sys_update_name>sys_ui_section_54f5709893170210ed10b6918bba1046</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-05 16:25:54</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1484464765</payload_hash>
+        <record_name>Ada Customer Use Cases</record_name>
+        <reverted_from/>
+        <source>20852e98930b4210ed10b6918bba103d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 16:26:10</sys_created_on>
+        <sys_id>c006f89893170210ed10b6918bba10e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19083b7aa000000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 16:26:10</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>4806f898991702102207a0ada2c5d2e5</update_guid>
+        <update_guid_history>4806f898991702102207a0ada2c5d2e5:1484464765</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 16:32:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>39a24eb39ceb4f03b87d3d6409862761</sys_id>
+        <sys_metadata>54f5709893170210ed10b6918bba1046</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ratings</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_parent display_value="Ada Customer Use Cases">2c28d07a93b60210ed10b6918bba1050</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_scope_delete display_value="">865270564cff4b00922943a398a24310</sys_scope_delete>
+        <sys_update_name>sys_ui_section_54f5709893170210ed10b6918bba1046</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_54f5709893170210ed10b6918bba1046">c006f89893170210ed10b6918bba10e6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 16:32:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

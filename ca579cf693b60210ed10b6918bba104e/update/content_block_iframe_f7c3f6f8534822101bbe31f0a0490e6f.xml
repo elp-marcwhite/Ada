@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_iframe">
+    <content_block_iframe action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <frame_name>eu-west-1-main</frame_name>
+        <height>300</height>
+        <logged_on>false</logged_on>
+        <name>eu-west-1-main</name>
+        <sizing>fixed</sizing>
+        <sys_class_name>content_block_iframe</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 17:51:36</sys_created_on>
+        <sys_id>f7c3f6f8534822101bbe31f0a0490e6f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>eu-west-1-main</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>content_block_iframe_f7c3f6f8534822101bbe31f0a0490e6f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 17:53:39</sys_updated_on>
+        <url>https://fww-nxt.statuspage.io</url>
+        <width>200</width>
+    </content_block_iframe>
+</record_update>

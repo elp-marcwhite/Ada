@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="73fa745093570210ed10b6918bba1014" label="Ada Delivery Engagements" max_length="40" name="u_ada_delivery_engagements" type="collection">
+        <element display="true" label="Engagement (Activity Full Name)" max_length="100" name="u_engagement_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Element Product" max_length="80" name="u_element_product" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Activity ID" max_length="40" name="u_activity_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Element" max_length="100" name="u_element" type="string"/>
+        <element label="Customer Name" max_length="32" name="u_customer_name" reference="core_company" type="reference"/>
+        <index name="index">
+            <element name="u_customer_name"/>
+        </index>
+    </element>
+</database>

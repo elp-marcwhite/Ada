@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="u_ada_custom_trends" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_custom_trend_name</element>
+            <list_id display_value="u_ada_custom_trends" element="NULL" name="u_ada_custom_trends" parent="NULL" relationship="NULL" sys_domain="global" view="ed64b340e412021008dda4ccc4008028">4e16daa093138210ed10b6918bba1094</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-06 18:04:29</sys_created_on>
+            <sys_id>8616daa093138210ed10b6918bba1095</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-06 18:04:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_ada_custom_trends</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-06 18:04:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e16daa093138210ed10b6918bba1094</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_ada_custom_trends</sys_name>
+            <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+            <sys_update_name>sys_ui_list_u_ada_custom_trends_sys_ref_list</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-06 18:04:29</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">ed64b340e412021008dda4ccc4008028</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

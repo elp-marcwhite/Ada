@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="u_ada_nxt_instances" version="2" view="RPT81522e7053c422101bbe31f0a0490e5d">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_region</element>
+            <list_id display_value="u_ada_nxt_instances" element="NULL" name="u_ada_nxt_instances" parent="NULL" relationship="NULL" sys_domain="global" view="9952ae3853c422101bbe31f0a0490eef">1565ba74538822101bbe31f0a0490e05</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-28 17:57:57</sys_created_on>
+            <sys_id>d165ba74538822101bbe31f0a0490e06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-28 17:57:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_location</element>
+            <list_id display_value="u_ada_nxt_instances" element="NULL" name="u_ada_nxt_instances" parent="NULL" relationship="NULL" sys_domain="global" view="9952ae3853c422101bbe31f0a0490eef">1565ba74538822101bbe31f0a0490e05</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-28 17:57:57</sys_created_on>
+            <sys_id>5965ba74538822101bbe31f0a0490e06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-28 17:57:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_mtp_cluster</element>
+            <list_id display_value="u_ada_nxt_instances" element="NULL" name="u_ada_nxt_instances" parent="NULL" relationship="NULL" sys_domain="global" view="9952ae3853c422101bbe31f0a0490eef">1565ba74538822101bbe31f0a0490e05</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-28 17:57:57</sys_created_on>
+            <sys_id>d965ba74538822101bbe31f0a0490e06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-28 17:57:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_all_operational</element>
+            <list_id display_value="u_ada_nxt_instances" element="NULL" name="u_ada_nxt_instances" parent="NULL" relationship="NULL" sys_domain="global" view="9952ae3853c422101bbe31f0a0490eef">1565ba74538822101bbe31f0a0490e05</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-28 17:57:57</sys_created_on>
+            <sys_id>5d65ba74538822101bbe31f0a0490e06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-28 17:57:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_last_operational_check</element>
+            <list_id display_value="u_ada_nxt_instances" element="NULL" name="u_ada_nxt_instances" parent="NULL" relationship="NULL" sys_domain="global" view="9952ae3853c422101bbe31f0a0490eef">1565ba74538822101bbe31f0a0490e05</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-28 17:57:57</sys_created_on>
+            <sys_id>dd65ba74538822101bbe31f0a0490e06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-28 17:57:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_ada_nxt_instances</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-28 17:57:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1565ba74538822101bbe31f0a0490e05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_ada_nxt_instances</sys_name>
+            <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+            <sys_update_name>sys_ui_list_u_ada_nxt_instances_RPT81522e7053c422101bbe31f0a0490e5d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-28 17:57:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt81522e7053c422101bbe31f0a0490e5d" name="RPT81522e7053c422101bbe31f0a0490e5d">9952ae3853c422101bbe31f0a0490eef</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

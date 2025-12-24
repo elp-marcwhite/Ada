@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Remote Actions" section_id="2903f4d093170210ed10b6918bba10cf" sys_domain="global" table="u_ada_customer_use_cases" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-05 16:13:58</sys_created_on>
+            <sys_id>213334d493170210ed10b6918bba10ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Remote Actions" display_value="Remote Actions" name="u_ada_customer_use_cases" sys_domain="global" view="Default view">2903f4d093170210ed10b6918bba10cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-05 16:13:58</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_library_remote_actions</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-05 16:13:58</sys_created_on>
+            <sys_id>a53334d493170210ed10b6918bba10ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Remote Actions" display_value="Remote Actions" name="u_ada_customer_use_cases" sys_domain="global" view="Default view">2903f4d093170210ed10b6918bba10cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-05 16:13:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-05 16:13:58</sys_created_on>
+            <sys_id>2d3334d493170210ed10b6918bba10ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Remote Actions" display_value="Remote Actions" name="u_ada_customer_use_cases" sys_domain="global" view="Default view">2903f4d093170210ed10b6918bba10cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-05 16:13:58</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_custom_remote_actions</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-05 16:13:58</sys_created_on>
+            <sys_id>a13334d493170210ed10b6918bba10eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Remote Actions" display_value="Remote Actions" name="u_ada_customer_use_cases" sys_domain="global" view="Default view">2903f4d093170210ed10b6918bba10cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-05 16:13:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-05 16:13:58</sys_created_on>
+            <sys_id>293334d493170210ed10b6918bba10eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Remote Actions" display_value="Remote Actions" name="u_ada_customer_use_cases" sys_domain="global" view="Default view">2903f4d093170210ed10b6918bba10cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-05 16:13:58</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Remote Actions</caption>
+            <header>false</header>
+            <name>u_ada_customer_use_cases</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-05 16:13:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2903f4d093170210ed10b6918bba10cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_ada_customer_use_cases</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+            <sys_update_name>sys_ui_section_2903f4d093170210ed10b6918bba10cf</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-05 16:13:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ada">ca579cf693b60210ed10b6918bba104e</application>
+        <file_path/>
+        <instance_id>34d147931b1a3d50c84543f4bd4bcb6c</instance_id>
+        <instance_name>dev210062</instance_name>
+        <name>sys_ui_section_2903f4d093170210ed10b6918bba10cf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Remote Actions" section_id="2903f4d093170210ed10b6918bba10cf" sys_domain="global" table="u_ada_customer_use_cases" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-05 16:13:58</sys_created_on><sys_id>213334d493170210ed10b6918bba10ea</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Remote Actions" display_value="Remote Actions" name="u_ada_customer_use_cases" sys_domain="global" view="Default view">2903f4d093170210ed10b6918bba10cf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-05 16:13:58</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_library_remote_actions</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-05 16:13:58</sys_created_on><sys_id>a53334d493170210ed10b6918bba10ea</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Remote Actions" display_value="Remote Actions" name="u_ada_customer_use_cases" sys_domain="global" view="Default view">2903f4d093170210ed10b6918bba10cf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-05 16:13:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-05 16:13:58</sys_created_on><sys_id>2d3334d493170210ed10b6918bba10ea</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Remote Actions" display_value="Remote Actions" name="u_ada_customer_use_cases" sys_domain="global" view="Default view">2903f4d093170210ed10b6918bba10cf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-05 16:13:58</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_custom_remote_actions</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-05 16:13:58</sys_created_on><sys_id>a13334d493170210ed10b6918bba10eb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Remote Actions" display_value="Remote Actions" name="u_ada_customer_use_cases" sys_domain="global" view="Default view">2903f4d093170210ed10b6918bba10cf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-05 16:13:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-05 16:13:58</sys_created_on><sys_id>293334d493170210ed10b6918bba10eb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Remote Actions" display_value="Remote Actions" name="u_ada_customer_use_cases" sys_domain="global" view="Default view">2903f4d093170210ed10b6918bba10cf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-05 16:13:58</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Remote Actions</caption><header>false</header><name>u_ada_customer_use_cases</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-05 16:13:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2903f4d093170210ed10b6918bba10cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ada_customer_use_cases</sys_name><sys_overrides/><sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package><sys_policy/><sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope><sys_update_name>sys_ui_section_2903f4d093170210ed10b6918bba10cf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-05 16:13:09</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1055098991</payload_hash>
+        <record_name>Ada Customer Use Cases</record_name>
+        <reverted_from/>
+        <source>20852e98930b4210ed10b6918bba103d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 16:13:58</sys_created_on>
+        <sys_id>e93334d493170210ed10b6918bba10ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19083ac81060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 16:13:58</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>613334d4831702106f69d4d17812caed</update_guid>
+        <update_guid_history>613334d4831702106f69d4d17812caed:1055098991</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 16:32:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1198572f3c5c4beb8304ac9f0e61e119</sys_id>
+        <sys_metadata>2903f4d093170210ed10b6918bba10cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Remote Actions</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_parent display_value="Ada Customer Use Cases">2c28d07a93b60210ed10b6918bba1050</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_scope_delete display_value="">865270564cff4b00922943a398a24310</sys_scope_delete>
+        <sys_update_name>sys_ui_section_2903f4d093170210ed10b6918bba10cf</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_2903f4d093170210ed10b6918bba10cf">e93334d493170210ed10b6918bba10ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 16:32:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

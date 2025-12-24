@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Ada library Dashboards</name>
+        <order/>
+        <roles>u_ada_library_dashboards_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-06 16:00:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>68b9fd2c935f4210ed10b6918bba10db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ada library Dashboards</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>sys_ui_application_68b9fd2c935f4210ed10b6918bba10db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-06 16:00:24</sys_updated_on>
+    </sys_ui_application>
+</record_update>

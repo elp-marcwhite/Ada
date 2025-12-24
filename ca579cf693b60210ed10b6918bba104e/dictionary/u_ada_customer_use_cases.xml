@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2c28d07a93b60210ed10b6918bba1050" label="Ada Customer Use Cases" max_length="40" name="u_ada_customer_use_cases" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Custom report" max_length="100" name="u_custom_report" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer JIRA / Asana" max_length="40" name="u_customer_jira" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Custom campaigns" max_length="100" name="u_custom_campaigns" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Reactive" label="DEX Maturity" max_length="40" name="u_dex_maturity" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Proactive" sequence="0" value="Proactive"/>
+                <element inactive_on_update="false" label="3 - Preventative" sequence="3" value="3 - Preventative"/>
+                <element inactive_on_update="false" label="1 - Reactive+" sequence="1" value="1 - Reactive+"/>
+                <element inactive="true" inactive_on_update="true" label="Reactive" sequence="4" value="Reactive"/>
+                <element inactive="true" inactive_on_update="true" label="Preventive" sequence="2" value="Preventive"/>
+                <element inactive="true" inactive_on_update="true" label="Strategic" sequence="1" value="Strategic"/>
+                <element inactive="true" inactive_on_update="true" label="Reactive+" sequence="3" value="Reactive+"/>
+                <element inactive_on_update="false" label="2 - Proactive" sequence="2" value="2 - Proactive"/>
+                <element inactive_on_update="false" label="0 - Reactive" sequence="0" value="0 - Reactive"/>
+                <element inactive_on_update="false" label="4 - Strategic" sequence="4" value="4 - Strategic"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Installer / Responsible" max_length="32" name="u_installer" reference="sys_user" reference_qual="u_nexthinker=true^ORu_ellipster=true^active=true^EQ" reference_qual_condition="u_nexthinker=true^ORu_ellipster=true^active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Actual Go Live date" max_length="40" name="u_actual_go_live_date" type="glide_date"/>
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Value - Compliance" max_length="1024" name="u_value_compliance" reference="u_value_category" reference_qual="u_value_category=cc802c5c93930210ed10b6918bba107a^EQ" reference_qual_condition="u_value_category=cc802c5c93930210ed10b6918bba107a^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Customer Use Case name" max_length="200" name="u_customer_use_case_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Ratings" max_length="400" name="u_ratings" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Journal" max_length="4000" name="u_history" type="journal"/>
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Value - Sustainability" max_length="1024" name="u_value_sustainability" reference="u_value_category" reference_qual="u_value_category=5380289c93930210ed10b6918bba1037^EQ" reference_qual_condition="u_value_category=5380289c93930210ed10b6918bba1037^EQ" type="glide_list"/>
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Library dashboards" max_length="1024" name="u_library_dashboards" reference="u_ada_library_dashboards" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Webhooks" max_length="100" name="u_webhooks" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Target Sprint" max_length="40" name="u_target_sprint" type="string"/>
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Value - Asset Management" max_length="1024" name="u_value_asset_management" reference="u_value_category" reference_qual="u_value_category=7980a49c93930210ed10b6918bba102f^EQ" reference_qual_condition="u_value_category=7980a49c93930210ed10b6918bba102f^EQ" type="glide_list"/>
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Library remote actions" max_length="1024" name="u_library_remote_actions" reference="u_ada_library_remote_actions" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Target Go Live date" max_length="40" name="u_target_go_live_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Primary/Key features" max_length="429" name="u_primary_key_features" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer Service Owner" max_length="40" name="u_customer_service_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Problem" max_length="1000" name="u_problem" type="string"/>
+        <element attributes="encode_utf8=false" label="Customer Name" max_length="32" name="u_customer" reference="core_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="11" value="Completed"/>
+                <element inactive_on_update="false" label="Rejected" sequence="7" value="Rejected"/>
+                <element inactive_on_update="false" label="In customer test" sequence="4" value="In customer test"/>
+                <element inactive_on_update="false" label="Retired" sequence="13" value="Retired"/>
+                <element inactive_on_update="false" label="Accepted by customer" sequence="9" value="Accepted by customer"/>
+                <element inactive_on_update="false" label="Approved" sequence="10" value="Approved"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="New"/>
+                <element inactive_on_update="false" label="Paused" sequence="1" value="Paused"/>
+                <element inactive_on_update="false" label="Query" sequence="14" value="Query"/>
+                <element inactive_on_update="false" label="Awaiting feedback" sequence="5" value="Awaiting feedback"/>
+                <element inactive_on_update="false" label="Blocked" sequence="6" value="Blocked"/>
+                <element inactive_on_update="false" label="In development" sequence="2" value="In development"/>
+                <element inactive="true" inactive_on_update="true" label="Acgtive" sequence="0" value="Acgtive"/>
+                <element inactive_on_update="false" label="Active" sequence="12" value="Active"/>
+                <element inactive_on_update="false" label="Not needed" sequence="8" value="Not needed"/>
+                <element inactive_on_update="false" label="Query answered" sequence="15" value="Query answered"/>
+                <element inactive_on_update="false" label="In progress" sequence="3" value="In progress"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Solution" max_length="1000" name="u_solution" type="string"/>
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Library custom trends" max_length="1024" name="u_library_custom_trends" reference="u_ada_custom_trends" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Updated" max_length="40" name="u_updated" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Value - Service Management" max_length="32" name="u_value_subcategory_s" reference="u_value_category" reference_qual="u_value_category=a970a45c93930210ed10b6918bba10a2^EQ" reference_qual_condition="u_value_category=a970a45c93930210ed10b6918bba10a2^EQ" type="glide_list"/>
+        <element attributes="encode_utf8=false" label="Engagement" max_length="32" name="u_engagement" reference="u_ada_delivery_engagements" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Custom dashboards" max_length="100" name="u_custom_dashboards" type="string"/>
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Value - Change and Transformation" max_length="1024" name="u_value_change_and_transformation" reference="u_value_category" reference_qual="u_value_category=9f50605c93930210ed10b6918bba1011^EQ" reference_qual_condition="u_value_category=9f50605c93930210ed10b6918bba1011^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Custom checklists" max_length="100" name="u_checklists" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Custom remote actions" max_length="100" name="u_custom_remote_actions" type="string"/>
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Library campaigns" max_length="1024" name="u_library_campaigns" reference="u_ada_library_campaigns" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Alerts" max_length="100" name="u_alerts" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Actual Sprint" max_length="40" name="u_actual_sprint" type="string"/>
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Value - Strategy" max_length="1024" name="u_value_strategic" reference="u_value_category" reference_qual="u_value_category=8c50249c93930210ed10b6918bba1024^EQ" reference_qual_condition="u_value_category=8c50249c93930210ed10b6918bba1024^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="1000" name="u_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Custom code" max_length="100" name="u_custom_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Flows" max_length="100" name="u_flows" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Process Change" max_length="1000" name="u_process_change" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Bulk Exports" max_length="100" name="u_bulk_exports" type="string"/>
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Library custom fields" max_length="1024" name="u_library_custom_fields" reference="u_ada_custom_fields" type="glide_list"/>
+        <index name="index">
+            <element name="u_customer"/>
+        </index>
+        <index name="index2">
+            <element name="u_engagement"/>
+        </index>
+        <index name="index3">
+            <element name="u_installer"/>
+        </index>
+        <index name="index4">
+            <element name="u_value_subcategory_s"/>
+        </index>
+    </element>
+</database>

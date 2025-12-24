@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b3bc945593534610ed10b6918bba10ba" extends="sys_import_set_row" label="Imp Tmpl U Ada Customer Use Cases" max_length="40" name="u_imp_tmpl_u_ada_customer_use_cases" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Customer JIRA" label="Customer JIRA" max_length="40" name="u_customer_jira" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=I" label="I" max_length="40" name="u_i" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Part of Foundation package ?" label="Part of Foundation package ?" max_length="40" name="u_part_of_foundation_package__" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=A" label="A" max_length="549" name="u_a" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=M" label="M" max_length="40" name="u_m" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=E" label="E" max_length="40" name="u_e" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Customer Use Case name" label="Customer Use Case name" max_length="40" name="u_customer_use_case_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=F" label="F" max_length="40" name="u_f" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=J" label="J" max_length="40" name="u_j" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=N" label="N" max_length="40" name="u_n" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=B" label="B" max_length="48" name="u_b" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Installer / Responsible" label="Installer / Responsible" max_length="40" name="u_installer___responsible" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Customer Name" label="Customer Name" max_length="40" name="u_customer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Engagement" label="Engagement" max_length="40" name="u_engagement" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Customer Service Owner" label="Customer Service Owner" max_length="40" name="u_customer_service_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=C" label="C" max_length="40" name="u_c" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Notes" label="Notes" max_length="40" name="u_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=G" label="G" max_length="275" name="u_g" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=K" label="K" max_length="49" name="u_k" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Problem" label="Problem" max_length="40" name="u_problem" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=D" label="D" max_length="40" name="u_d" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=H" label="H" max_length="81" name="u_h" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=L" label="L" max_length="40" name="u_l" type="string"/>
+    </element>
+</database>

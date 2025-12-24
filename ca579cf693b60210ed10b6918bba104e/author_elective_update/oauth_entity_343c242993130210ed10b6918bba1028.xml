@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="DELETE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>f79f968c4dd34cc49fbe8f9a75482f53</client_id>
+        <client_secret>﷞﷟﷒9b97c03693760210ed10b6918bba109d﷬﷔1﷬﷭2xA8AAZTg2LAdr-XqtBZFw==3yOMcvsC9yu2WJ8QGuFlSuHwxz_M7cEiCbltG7lcuwUOX7-sBtDQLyW_d-4LgFZiV24VZyaO9epr8XFT7gBfdO89x9e6v9EJzRn__j6VIm8=﷮﷯</client_secret>
+        <client_type/>
+        <client_uuid>703c242993130210ed10b6918bba1028</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>client_credentials</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <jwt_provider/>
+        <login_url/>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>Nextflow</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://dev210062.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <send_client_credentials_as>basic_authorization_header</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-09 12:58:38</sys_created_on>
+        <sys_id>343c242993130210ed10b6918bba1028</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Nextflow</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>oauth_entity_343c242993130210ed10b6918bba1028</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 18:04:01</sys_updated_on>
+        <token_url>https://psna.api.pre.eu.nexthink.cloud/api/v1/token</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ada">ca579cf693b60210ed10b6918bba104e</application>
+        <file_path/>
+        <instance_id>34d147931b1a3d50c84543f4bd4bcb6c</instance_id>
+        <instance_name>dev210062</instance_name>
+        <name>oauth_entity_343c242993130210ed10b6918bba1028</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity"><oauth_entity action="INSERT_OR_UPDATE"><access>public</access><access_token_lifespan>1800</access_token_lifespan><active>true</active><auth_code_lifespan>0</auth_code_lifespan><auth_url/><certificate_url/><client_id>f79f968c4dd34cc49fbe8f9a75482f53</client_id><client_secret>﷞﷟﷒9b97c03693760210ed10b6918bba109d﷬﷔1﷬﷭2xA8AAZTg2LAdr-XqtBZFw==3yOMcvsC9yu2WJ8QGuFlSuHwxz_M7cEiCbltG7lcuwUOX7-sBtDQLyW_d-4LgFZiV24VZyaO9epr8XFT7gBfdO89x9e6v9EJzRn__j6VIm8=﷮﷯</client_secret><client_type/><client_uuid>703c242993130210ed10b6918bba1028</client_uuid><code_challenge_method>S256</code_challenge_method><comments/><default_grant_type>client_credentials</default_grant_type><id_token_lifespan>0</id_token_lifespan><jwt_provider/><login_url/><logo_url/><message_signature_lifespan>0</message_signature_lifespan><mobile_client>false</mobile_client><name>Nextflow</name><oauth_api_script/><protocol_name/><public_client>false</public_client><redirect_url>https://dev210062.service-now.com/oauth_redirect.do</redirect_url><refresh_token_lifespan>8640000</refresh_token_lifespan><refresh_token_url/><restricted_binding>false</restricted_binding><revoke_token_url/><salt>0</salt><send_client_credentials_as>basic_authorization_header</send_client_credentials_as><skip_authorize>false</skip_authorize><sys_class_name>oauth_entity</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-09 12:58:38</sys_created_on><sys_id>343c242993130210ed10b6918bba1028</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Nextflow</sys_name><sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package><sys_policy/><sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope><sys_update_name>oauth_entity_343c242993130210ed10b6918bba1028</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-22 18:04:01</sys_updated_on><token_url>https://psna.api.pre.eu.nexthink.cloud/api/v1/token</token_url><type>oauth_provider</type><use_mutual_auth>false</use_mutual_auth><user/></oauth_entity></record_update>]]></payload>
+        <payload_hash>1231960302</payload_hash>
+        <record_name>Nextflow</record_name>
+        <reverted_from/>
+        <source>140a953553b512101bbe31f0a0490e28</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 18:04:02</sys_created_on>
+        <sys_id>72fa0ed5534612101bbe31f0a0490ed7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193550b92ad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 18:04:02</sys_updated_on>
+        <type>Application Registries</type>
+        <update_guid>a6fa0ed534461210847867be88a434d6</update_guid>
+        <update_guid_history>a6fa0ed534461210847867be88a434d6:1231960302,ba051e898b8012109bd5e5e5661f97f4:-1182674431,d76d646997130210d2709c0db942cc17:-1131239391,53fc246927130210465be1f262dce992:-1381838415,17dc20694b130210804c96f8183ec4d9:1310635289</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Nextflow">987b4619534612101bbe31f0a0490e0a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 18:06:03</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity">oauth_entity</sys_db_object>
+        <sys_id>2cbaf00d28844670863d65676d77fa40</sys_id>
+        <sys_metadata>343c242993130210ed10b6918bba1028</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nextflow</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_scope_delete display_value="">865270564cff4b00922943a398a24310</sys_scope_delete>
+        <sys_update_name>oauth_entity_343c242993130210ed10b6918bba1028</sys_update_name>
+        <sys_update_version display_value="oauth_entity_343c242993130210ed10b6918bba1028">72fa0ed5534612101bbe31f0a0490ed7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 18:06:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

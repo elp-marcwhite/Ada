@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>u_ada_nxt_instances</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="u_ada_nxt_instances">u_all_operational=false^EQ<item endquery="false" field="u_all_operational" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Ada NXT Cluster is down</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+   // Define webhook
+   var webHook = 'https://nexthink.webhook.office.com/webhookb2/a63b78c3-2d1d-4d21-834b-45a9eb2899bb@13387b29-82d9-4ca5-9fa0-b7b5635742ef/IncomingWebhook/2c2ea0d9cc4447c3bca777c21d3afec1/478e226b-cb21-4c79-87db-894739268d08/V2oEYHYf5w4RAVU5kf84qqhNSajnxi23DYuo8Xtegmkd01' ;
+   
+    // Define the message content
+    var message = "TESTING IGNORE - Cluster is down " ;
+
+    // Create a new Integration Hub action
+    var teamsAPI = new sn_integrationhub.TeamsSpokeAPI();
+    var teamId = 'a63b78c3-2d1d-4d21-834b-45a9eb2899bb'; // Replace with the actual Team ID
+    var channelId = '19%3Aa17d990b27eb49c4aee4d1265c3ed089%40thread.skype';  
+    
+    var response = teamsAPI.postMessage(teamId, channelId, messageText);
+
+
+    if (!response || response.status !== 'success') {
+        gs.error('Failed to send Microsoft Teams message: ' + JSON.stringify(response));
+    }
+
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 20:53:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a45a3a31530062101bbe31f0a0490ede</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Ada NXT Cluster is down</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>sys_script_a45a3a31530062101bbe31f0a0490ede</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:31:06</sys_updated_on>
+        <template>u_all_operational=true^EQ</template>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=a45a3a31530062101bbe31f0a0490ede"/>
+    <sys_es_latest_script action="DELETE">
+        <id>a45a3a31530062101bbe31f0a0490ede</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 20:54:36</sys_created_on>
+        <sys_id>1e9a3efd53cc22101bbe31f0a0490e4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 20:54:36</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ada">ca579cf693b60210ed10b6918bba104e</application>
+        <file_path/>
+        <instance_id>34d147931b1a3d50c84543f4bd4bcb6c</instance_id>
+        <instance_name>dev210062</instance_name>
+        <name>sys_script_a45a3a31530062101bbe31f0a0490ede</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_ada_nxt_instances&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="u_ada_nxt_instances"&gt;u_all_operational=false^EQ&lt;item endquery="false" field="u_all_operational" goto="false" newquery="false" operator="=" or="false" value="false"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Ada NXT Cluster is down&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+   // Define webhook
+   var webHook = 'https://nexthink.webhook.office.com/webhookb2/a63b78c3-2d1d-4d21-834b-45a9eb2899bb@13387b29-82d9-4ca5-9fa0-b7b5635742ef/IncomingWebhook/2c2ea0d9cc4447c3bca777c21d3afec1/478e226b-cb21-4c79-87db-894739268d08/V2oEYHYf5w4RAVU5kf84qqhNSajnxi23DYuo8Xtegmkd01' ;
+   
+    // Define the message content
+    var message = "TESTING IGNORE - Cluster is down " ;
+
+    // Create a new Integration Hub action
+    var teamsAPI = new sn_integrationhub.TeamsSpokeAPI();
+    var teamId = 'a63b78c3-2d1d-4d21-834b-45a9eb2899bb'; // Replace with the actual Team ID
+    var channelId = '19%3Aa17d990b27eb49c4aee4d1265c3ed089%40thread.skype';  
+    
+    var response = teamsAPI.postMessage(teamId, channelId, messageText);
+
+
+    if (!response || response.status !== 'success') {
+        gs.error('Failed to send Microsoft Teams message: ' + JSON.stringify(response));
+    }
+
+})(current, previous);
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 20:53:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a45a3a31530062101bbe31f0a0490ede&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ada NXT Cluster is down&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e"&gt;ca579cf693b60210ed10b6918bba104e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Ada"&gt;ca579cf693b60210ed10b6918bba104e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_a45a3a31530062101bbe31f0a0490ede&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 21:31:06&lt;/sys_updated_on&gt;&lt;template&gt;u_all_operational=true^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a45a3a31530062101bbe31f0a0490ede"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;a45a3a31530062101bbe31f0a0490ede&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 20:54:36&lt;/sys_created_on&gt;&lt;sys_id&gt;1e9a3efd53cc22101bbe31f0a0490e4c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 20:54:36&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;false&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1228076188</payload_hash>
+        <record_name>Ada NXT Cluster is down</record_name>
+        <reverted_from/>
+        <source>dc71a83e93b60210ed10b6918bba10c4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:31:06</sys_created_on>
+        <sys_id>e4f28375534062101bbe31f0a0490e6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1955deb72490000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:31:06</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>a8f283755440621081860adf7ce3366c</update_guid>
+        <update_guid_history>a8f283755440621081860adf7ce3366c:1228076188,dfbf7a7da3006210321dd7be31f1e032:74374709,305f32797b006210e51cdce8493636c9:1253053460,23ceb6f9d50062108b2b1a1b7d2bf91f:-914453655,a25dfa35000062104784501e54a63c4c:-507499116,d21c3a35bc00621024f1c96068a8c7b8:-2089675856,9a9a3671ca0062109e5af5580ffef0ae:791982923,705a3a3169006210ff6570345d8b13e3:-467752078</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:31:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>1fff063e7cf84474851e0f84fdb0ee10</sys_id>
+        <sys_metadata>a45a3a31530062101bbe31f0a0490ede</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ada NXT Cluster is down</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_parent display_value="Ada NXT Instances">cd141af4534422101bbe31f0a0490e84</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_scope_delete display_value="">865270564cff4b00922943a398a24310</sys_scope_delete>
+        <sys_update_name>sys_script_a45a3a31530062101bbe31f0a0490ede</sys_update_name>
+        <sys_update_version display_value="sys_script_a45a3a31530062101bbe31f0a0490ede">e4f28375534062101bbe31f0a0490e6d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:31:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

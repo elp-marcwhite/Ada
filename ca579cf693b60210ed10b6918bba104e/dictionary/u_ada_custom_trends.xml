@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="23e4926093138210ed10b6918bba1071" label="Ada Custom Trends" max_length="40" name="u_ada_custom_trends" type="collection">
+        <element label="Custom Trend details" max_length="300" name="u_custom_trend_details" type="string"/>
+        <element display="true" label="Custom Trend name" max_length="100" name="u_custom_trend_name" type="string"/>
+        <element label="Description" max_length="300" name="u_description" type="string"/>
+    </element>
+</database>

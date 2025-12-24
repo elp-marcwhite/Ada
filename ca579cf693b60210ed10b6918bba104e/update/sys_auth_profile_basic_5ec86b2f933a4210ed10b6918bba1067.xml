@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>PSNA</name>
+        <password>﷞﷟﷒8f97c03693760210ed10b6918bba104b﷬﷔1﷬﷭PakSdMYOE0zVVVyxqRwrqg==SyX5HYeRk9iKmX3hdRhlyi7qdIEiNtiA2lpaT6AjBS4l_Zpu﷮﷯</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 11:16:20</sys_created_on>
+        <sys_id>5ec86b2f933a4210ed10b6918bba1067</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PSNA</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_5ec86b2f933a4210ed10b6918bba1067</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 11:16:20</sys_updated_on>
+        <username>marc.white</username>
+    </sys_auth_profile_basic>
+</record_update>

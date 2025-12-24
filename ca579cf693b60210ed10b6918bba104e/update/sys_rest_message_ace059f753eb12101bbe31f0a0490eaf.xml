@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <authentication_type>oauth2</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description>Trigger a general survey Campaign in  Nexthink </description>
+        <name>Nexthink Trigger general Campaign</name>
+        <oauth2_profile display_value="Ellipsys">e5cb4ad9534612101bbe31f0a0490efc</oauth2_profile>
+        <protocol_name/>
+        <rest_endpoint>https://${instance}.api.${region}.nexthink.cloud/api/v1/euf/campaign/trigger</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 21:49:12</sys_created_on>
+        <sys_id>ace059f753eb12101bbe31f0a0490eaf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Nexthink Trigger general Campaign</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>sys_rest_message_ace059f753eb12101bbe31f0a0490eaf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 21:54:28</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

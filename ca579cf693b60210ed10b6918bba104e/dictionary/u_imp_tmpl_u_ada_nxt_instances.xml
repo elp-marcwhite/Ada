@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="04c51af8534422101bbe31f0a0490eec" extends="sys_import_set_row" label="Imp Tmpl U Ada Nxt Instances" max_length="40" name="u_imp_tmpl_u_ada_nxt_instances" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status page URL" label="Status page URL" max_length="1024" name="u_status_page_url" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Location" label="Location" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Region" label="Region" max_length="40" name="u_region" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=MTP Cluster" label="MTP Cluster" max_length="40" name="u_mtp_cluster" type="string"/>
+    </element>
+</database>

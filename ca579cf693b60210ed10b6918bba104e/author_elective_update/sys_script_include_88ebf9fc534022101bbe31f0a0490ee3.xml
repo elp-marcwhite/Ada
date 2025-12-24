@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.Ada Get AWS instance statuses</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Query all of the AWS instances hosting Nexthink and get status</description>
+        <mobile_callable>false</mobile_callable>
+        <name>Ada Get AWS instance statuses</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[const axios = require('axios');
+const cheerio = require('cheerio');
+
+async function fetchPage(url) {
+    try {
+        const response = await axios.get(url);
+        const html = response.data;
+
+        const $ = cheerio.load(html);
+        console.log("Captured Splash Page:", $.html());
+    } catch (error) {
+        console.error("Error fetching page:", error);
+    }
+}
+
+// Example usage
+fetchPage("https://rxw-nxt.statuspage.io/");
+
+
+// Example usage:
+fetchAndExtractElement("https://rxw-nxt.statuspage.io/", "h1").then((text) => {
+    console.log("Extracted Element Text:", text);
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 13:48:08</sys_created_on>
+        <sys_id>88ebf9fc534022101bbe31f0a0490ee3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Ada Get AWS instance statuses</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>sys_script_include_88ebf9fc534022101bbe31f0a0490ee3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 13:56:57</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>88ebf9fc534022101bbe31f0a0490ee3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 13:48:07</sys_created_on>
+        <sys_id>313cf530538022101bbe31f0a0490ecd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 13:48:07</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ada">ca579cf693b60210ed10b6918bba104e</application>
+        <file_path/>
+        <instance_id>34d147931b1a3d50c84543f4bd4bcb6c</instance_id>
+        <instance_name>dev210062</instance_name>
+        <name>sys_script_include_88ebf9fc534022101bbe31f0a0490ee3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.Ada Get AWS instance statuses&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Query all of the AWS instances hosting Nexthink and get status&lt;/description&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;Ada Get AWS instance statuses&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[const axios = require('axios');
+const cheerio = require('cheerio');
+
+async function fetchPage(url) {
+    try {
+        const response = await axios.get(url);
+        const html = response.data;
+
+        const $ = cheerio.load(html);
+        console.log("Captured Splash Page:", $.html());
+    } catch (error) {
+        console.error("Error fetching page:", error);
+    }
+}
+
+// Example usage
+fetchPage("https://rxw-nxt.statuspage.io/");
+
+
+// Example usage:
+fetchAndExtractElement("https://rxw-nxt.statuspage.io/", "h1").then((text) =&gt; {
+    console.log("Extracted Element Text:", text);
+});
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-28 13:48:08&lt;/sys_created_on&gt;&lt;sys_id&gt;88ebf9fc534022101bbe31f0a0490ee3&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ada Get AWS instance statuses&lt;/sys_name&gt;&lt;sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e"&gt;ca579cf693b60210ed10b6918bba104e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Ada"&gt;ca579cf693b60210ed10b6918bba104e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_88ebf9fc534022101bbe31f0a0490ee3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-28 13:56:57&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;88ebf9fc534022101bbe31f0a0490ee3&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-28 13:48:07&lt;/sys_created_on&gt;&lt;sys_id&gt;313cf530538022101bbe31f0a0490ecd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-28 13:48:07&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1325368191</payload_hash>
+        <record_name>Ada Get AWS instance statuses</record_name>
+        <reverted_from/>
+        <source>dc71a83e93b60210ed10b6918bba10c4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 13:56:58</sys_created_on>
+        <sys_id>9f3e35fc534022101bbe31f0a0490ebd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1954cd89a8d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 13:56:58</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>c33e35fcda4022107e27590069435fbd</update_guid>
+        <update_guid_history>c33e35fcda4022107e27590069435fbd:-1325368191,d20eb57cee402210d746f88563ae1aec:1764036101,b64cb930e98022109f18411d793c57eb:-599378707,463cf5301780221030ccb575168f22dd:269806522</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 16:20:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>0de984fda77c4dc986e8bd8021c7fea1</sys_id>
+        <sys_metadata>88ebf9fc534022101bbe31f0a0490ee3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ada Get AWS instance statuses</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_scope_delete display_value="">865270564cff4b00922943a398a24310</sys_scope_delete>
+        <sys_update_name>sys_script_include_88ebf9fc534022101bbe31f0a0490ee3</sys_update_name>
+        <sys_update_version display_value="sys_script_include_88ebf9fc534022101bbe31f0a0490ee3">9f3e35fc534022101bbe31f0a0490ebd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 16:20:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <filter_extension/>
+        <is_df_table>false</is_df_table>
+        <is_extendable>false</is_extendable>
+        <label>Ada Library Dashboards</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_ada_library_dashboards</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-06 16:00:24</sys_created_on>
+        <sys_id>6449b52c935f4210ed10b6918bba106f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Ada Library Dashboards</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>sys_db_object_6449b52c935f4210ed10b6918bba106f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-06 16:00:46</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="u_ada_library_dashboards_user" name="u_ada_library_dashboards_user">d4b9b968935f4210ed10b6918bba1052</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

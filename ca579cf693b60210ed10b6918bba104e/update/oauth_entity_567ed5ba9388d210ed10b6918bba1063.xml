@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>55bf14dd638d44e3a7cd4f4e058183a6</client_id>
+        <client_secret>﷞﷟﷒9b97c03693760210ed10b6918bba109d﷬﷔1﷬﷭HTdLHExrWhzk4q349tm4oQ==D4VzNt0GSxlm9S6UCZq2I4ifkxdJr8uhG-6B4rwqHDBPgnbNQw0o-ClQHkFl0pKRdkkn6HBX04GttjGLmGRVe792lZ2_FOV8LaRIZaME3hY=﷮﷯</client_secret>
+        <client_type/>
+        <client_uuid>927ed5ba9388d210ed10b6918bba1063</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>client_credentials</default_grant_type>
+        <extend_refresh_token_expiry>true</extend_refresh_token_expiry>
+        <id_token_lifespan>0</id_token_lifespan>
+        <inbound_grant_type>not_applicable</inbound_grant_type>
+        <jwt_provider/>
+        <login_url/>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>TRV</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://dev210062.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <send_client_credentials_as>basic_authorization_header</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sub_claim>user_name</sub_claim>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-19 20:35:57</sys_created_on>
+        <sys_id>567ed5ba9388d210ed10b6918bba1063</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>TRV</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>oauth_entity_567ed5ba9388d210ed10b6918bba1063</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-10-03 13:23:08</sys_updated_on>
+        <token_format>opaque</token_format>
+        <token_url>https://travelers.api.us.nexthink.cloud/api/v1/token</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <use_pkce>false</use_pkce>
+        <user/>
+    </oauth_entity>
+</record_update>

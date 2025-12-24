@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b0cf14d893930210ed10b6918bba100f" label="Ada Value Category" max_length="40" name="u_ada_value_category" type="collection">
+        <element display="true" label="Category Name" max_length="100" name="u_category_name" type="string"/>
+        <element label="Category Definition" max_length="200" name="u_category_definition" type="string"/>
+    </element>
+</database>

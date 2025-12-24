@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2ba5ade0931f4210ed10b6918bba1070" label="Ada Library Campaigns" max_length="40" name="u_ada_library_campaigns" type="collection">
+        <element display="true" label="Campaign name" max_length="100" name="u_campaign_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Campaign details" max_length="1000" name="u_campaign_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Before using the campaign" max_length="1000" name="u_before_using_the_campaign" type="string"/>
+        <element label="Description" max_length="300" name="u_description" type="string"/>
+        <element attributes="pdf_cell_type=image" label="Screenshots" max_length="40" name="u_screenshots" type="user_image"/>
+    </element>
+</database>

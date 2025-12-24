@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cd141af4534422101bbe31f0a0490e84" label="Ada NXT Instances" max_length="40" name="u_ada_nxt_instances" type="collection">
+        <element label="Location" max_length="40" name="u_location" type="string"/>
+        <element label="Operational" max_length="40" name="u_all_operational" type="boolean"/>
+        <element label="Status page URL" max_length="1024" name="u_status_page_url" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Last operational check" max_length="40" name="u_last_operational_check" type="glide_date_time"/>
+        <element label="MTP Cluster" max_length="40" name="u_mtp_cluster" type="string"/>
+        <element label="Region" max_length="40" name="u_region" type="string"/>
+    </element>
+</database>

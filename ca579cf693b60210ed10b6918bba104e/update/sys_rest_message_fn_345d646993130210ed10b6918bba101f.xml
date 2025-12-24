@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{&#13;
+  "queryId": "#get_email_and_collector_uid_for_device",&#13;
+  "parameters": {"devicename" : "${devicename}" }&#13;
+}</content>
+        <function_name>Get collector UID</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Nexthink Get Device collector UID [ Get collector UID ]</qualified_name>
+        <rest_endpoint>https://${instance}.api.${region}.nexthink.cloud/api/v1/nql/execute</rest_endpoint>
+        <rest_message display_value="Nexthink Get Device collector UID">0a0d646993130210ed10b6918bba1092</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-09 13:00:40</sys_created_on>
+        <sys_id>345d646993130210ed10b6918bba101f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Get collector UID</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>sys_rest_message_fn_345d646993130210ed10b6918bba101f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-14 13:49:34</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

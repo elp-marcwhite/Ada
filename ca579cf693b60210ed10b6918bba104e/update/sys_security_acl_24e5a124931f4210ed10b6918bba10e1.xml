@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Default access control on u_ada_library_campaigns</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>u_ada_library_campaigns</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-06 14:33:50</sys_created_on>
+        <sys_id>24e5a124931f4210ed10b6918bba10e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_ada_library_campaigns</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>sys_security_acl_24e5a124931f4210ed10b6918bba10e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-06 14:33:50</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

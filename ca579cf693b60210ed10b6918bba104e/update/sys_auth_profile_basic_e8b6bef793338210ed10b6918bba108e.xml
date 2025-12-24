@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>Nexthink Jira</name>
+        <password>﷞﷟﷒8f97c03693760210ed10b6918bba104b﷬﷔1﷬﷭9m2ritzwpxJ8PMfljr24xA==cMRIvzQAzuo_tXjuPTJJzBojo76EPMi9UWorAmexx-wmvQDHZ3Q4AHHzacTfmswKxAekvH4RfKpj4m50vD03sG-eD6Qo2NMYP-Dm2ks72r9Ga1wxT-ExOn6azEutw0w6un0BWj6LbuMeKDVUNKARsE4YJ7k-qvcLOiklomkCKIhv-8KyA34FGlr1wqJtCNMc1_VsFssDUVFKtXH-wd2do5K_uWmWz3mLKGomQSkDJzWQixjUZIhlLN5xosR_nvWqxh1kovicds6WgBAQb3AkiA==﷮﷯</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-10 19:19:12</sys_created_on>
+        <sys_id>e8b6bef793338210ed10b6918bba108e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nexthink Jira</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_e8b6bef793338210ed10b6918bba108e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-10 19:19:12</sys_updated_on>
+        <username>marc.white@nexthink.com</username>
+    </sys_auth_profile_basic>
+</record_update>

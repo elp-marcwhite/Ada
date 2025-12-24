@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_use_case_catalog_value_category" table="u_ada_customer_use_cases">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Use Case Catalog Value Category</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_use_case_catalog_value_category</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>u_ada_customer_use_cases</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-18 12:09:05</sys_created_on>
+        <sys_id>7028d07a93b60210ed10b6918bba10b0</sys_id>
+        <sys_name>Use Case Catalog Value Category</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>sys_dictionary_u_ada_customer_use_cases_u_use_case_catalog_value_category</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-18 12:09:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ada">ca579cf693b60210ed10b6918bba104e</application>
+        <file_path/>
+        <instance_id>34d147931b1a3d50c84543f4bd4bcb6c</instance_id>
+        <instance_name>dev210062</instance_name>
+        <name>sys_dictionary_u_ada_customer_use_cases_u_use_case_catalog_value_category</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_use_case_catalog_value_category" table="u_ada_customer_use_cases"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Use Case Catalog Value Category</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_use_case_catalog_value_category</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_ada_customer_use_cases</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-18 12:09:05</sys_created_on><sys_id>7028d07a93b60210ed10b6918bba10b0</sys_id><sys_name>Use Case Catalog Value Category</sys_name><sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package><sys_policy/><sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope><sys_update_name>sys_dictionary_u_ada_customer_use_cases_u_use_case_catalog_value_category</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-18 12:09:05</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>634617092</payload_hash>
+        <record_name>Ada Customer Use Cases.Use Case Catalog Value Category</record_name>
+        <reverted_from/>
+        <source>c128370ce492021008dda4ccc4008064</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-18 12:09:06</sys_created_on>
+        <sys_id>8d28147a93b60210ed10b6918bba1013</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1902b40356c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-18 12:09:06</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>c128147a57b60210f5de08e917974813</update_guid>
+        <update_guid_history>c128147a57b60210f5de08e917974813:634617092</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:10:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>a3f35663b635430190d1f931d7dc9549</sys_id>
+        <sys_metadata>7028d07a93b60210ed10b6918bba10b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Use Case Catalog Value Category</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_parent display_value="Ada Customer Use Cases">2c28d07a93b60210ed10b6918bba1050</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_scope_delete display_value="">865270564cff4b00922943a398a24310</sys_scope_delete>
+        <sys_update_name>sys_dictionary_u_ada_customer_use_cases_u_use_case_catalog_value_category</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_u_ada_customer_use_cases_u_use_case_catalog_value_category">8d28147a93b60210ed10b6918bba1013</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:10:36</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</claim_owner_scope>
+        <claim_timestamp>19088705fd50000001</claim_timestamp>
+        <metadata_update_name>sys_dictionary_u_ada_customer_use_cases_u_use_case_catalog_value_category</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Ada</previous_claim_name>
+        <previous_claim_scope>ca579cf693b60210ed10b6918bba104e</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-06 14:26:24</sys_created_on>
+        <sys_id>2f246960931f4210ed10b6918bba1027</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-06 14:26:24</sys_updated_on>
+    </sys_claim>
+</record_update>

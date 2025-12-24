@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=17214000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Send notification to teams when a Nexthink cluster goes down</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>ada_nexthink_cluster_down</internal_name>
+        <label_cache>[{"name":"Updated_1.current.u_region","label":"Trigger - Record Updated➛Ada NXT Instances Record➛Region","reference":"","reference_display":"Region","type":"string","base_type":"string","parent_table_name":"u_ada_nxt_instances","column_name":"u_region","usedInstances":{"e13b07a6-ef1d-4f4a-b02f-f7810efa0712":["ah_message"]}},{"name":"Updated_1.current.u_status_page_url","label":"Trigger - Record Updated➛Ada NXT Instances Record➛Status page URL","reference":"","reference_display":"Status page URL","type":"url","base_type":"url","parent_table_name":"u_ada_nxt_instances","column_name":"u_status_page_url","usedInstances":{}}]</label_cache>
+        <master_snapshot>3f924735534062101bbe31f0a0490ef9</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Ada Nexthink cluster down</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>84a28735534062101bbe31f0a0490e5e</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 16:42:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>70f0c23953c422101bbe31f0a0490e87</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Ada Nexthink cluster down</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>sys_hub_flow_70f0c23953c422101bbe31f0a0490e87</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:34:15</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=70f0c23953c422101bbe31f0a0490e87"/>
+    <sys_variable_value action="delete_multiple" query="document_key=70f0c23953c422101bbe31f0a0490e87"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="u_ada_nxt_instances">u_all_operational=false<item endquery="false" field="u_all_operational" goto="false" newquery="false" operator="=" or="false" value="false"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:29:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>84a28735534062101bbe31f0a0490e5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:29:41</sys_updated_on>
+        <table>u_ada_nxt_instances</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>70f0c23953c422101bbe31f0a0490e87</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:29:41</sys_created_on>
+        <sys_id>04a28735534062101bbe31f0a0490e5f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:34:11</sys_updated_on>
+        <trigger display_value="">84a28735534062101bbe31f0a0490e5e</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=70f0c23953c422101bbe31f0a0490e87^sys_idNOT IN04a28735534062101bbe31f0a0490e5f"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=70f0c23953c422101bbe31f0a0490e87"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=70f0c23953c422101bbe31f0a0490e87^sys_idNOT INf4f0c23953c422101bbe31f0a0490e89"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>70f0c23953c422101bbe31f0a0490e87</id>
+        <name>Ada Nexthink cluster down</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 16:42:45</sys_created_on>
+        <sys_id>f4f0c23953c422101bbe31f0a0490e89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 16:42:45</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f4f0c23953c422101bbe31f0a0490e89"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=70f0c23953c422101bbe31f0a0490e87^sys_idNOT INa66186f953c422101bbe31f0a0490e74,b26186f953c422101bbe31f0a0490e8d,ea6186f953c422101bbe31f0a0490e7d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Ada Nexthink cluster down">70f0c23953c422101bbe31f0a0490e87</model>
+        <model_id>70f0c23953c422101bbe31f0a0490e87</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_70f0c23953c422101bbe31f0a0490e87</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 16:44:46</sys_created_on>
+        <sys_id>a66186f953c422101bbe31f0a0490e74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 16:44:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a66186f953c422101bbe31f0a0490e74"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Ada Nexthink cluster down">70f0c23953c422101bbe31f0a0490e87</model>
+        <model_id>70f0c23953c422101bbe31f0a0490e87</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_70f0c23953c422101bbe31f0a0490e87</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 16:44:47</sys_created_on>
+        <sys_id>b26186f953c422101bbe31f0a0490e8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 16:44:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b26186f953c422101bbe31f0a0490e8d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Ada Nexthink cluster down">70f0c23953c422101bbe31f0a0490e87</model>
+        <model_id>70f0c23953c422101bbe31f0a0490e87</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_70f0c23953c422101bbe31f0a0490e87</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 16:44:47</sys_created_on>
+        <sys_id>ea6186f953c422101bbe31f0a0490e7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 16:44:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ea6186f953c422101bbe31f0a0490e7d"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=70f0c23953c422101bbe31f0a0490e87"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=70f0c23953c422101bbe31f0a0490e87"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=70f0c23953c422101bbe31f0a0490e87^sys_idNOT IN366186f953c422101bbe31f0a0490ec5"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Ada Nexthink cluster down">70f0c23953c422101bbe31f0a0490e87</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 16:44:47</sys_created_on>
+        <sys_id>366186f953c422101bbe31f0a0490ec5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:25:13</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=70f0c23953c422101bbe31f0a0490e87^sys_idNOT IN6e918f71534062101bbe31f0a0490eff"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Post a Message">549822431324030039a039ed9344b085</action_type>
+        <action_type_parent display_value="Post a Message">23be39c713e0030039a039ed9344b058</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Ada Nexthink cluster down">70f0c23953c422101bbe31f0a0490e87</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:25:13</sys_created_on>
+        <sys_id>6e918f71534062101bbe31f0a0490eff</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:34:15</sys_updated_on>
+        <ui_id>e13b07a6-ef1d-4f4a-b02f-f7810efa0712</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2WwW7bOBCGX4XQaQtYskTRlpTTBk2Lbrt1gNhJG7SFQFKUpQ0lKhIV2w387h3ZslPHsetDsPDBBx005Az/mfmG4LdHI42MM6PvBz7GxHVcTGzXtt2AwieiwCWE2b5vdIycZgJ20iScCJYodRfWpQT7A5V1s5BoXVRn3W4upjpJ8zur3WapOE65sLjKuq2J4S7tu8zzuWviyIlMEmHH9F3CTNKjgWDYDwLG/nZc1/cYDkwfR4FJOO2ZQUxtk3ms13d7HsEi7v6TQ+Q0H39Zxu5ijgW1o4BzQojHXcap53kcO5FLY8GdLvF8gXGfmZzBqYR7EN+LmOkHxHMD3Pcj2+/eYPXu9sNt3JuQq/Ob695d7JP7+2QwpP/l0xS7F7e18r9qMc7uItuBMkRpVUg6uzlVo6kGT1IZlSI3zr796BgFLQEeLUrj7PHZkp4VIpSUCQlFG+oSpIP7oUyuHNts0fXVv3tIbc4Ce7U6RZVRI8nuGNAkkUcCTo2prETHyGgeUa3K2dpSChpd5vLJAF3VEM1oNk+r9CeE9m3bbnbGAvLjYrm6/g1bRJZmnijg4LLQqcqXFk2ZbH24knWWD5Z5NHCJmNZSr+ACS11BPFE0qhsZraZ4mKjJ1erA92m+SLBdlIpTuf6jGsrAai2qpilCigwChRktCihOWJTqIV04g5bMGkv4sWKpJnBolY5zi/JGuAVFotZ7sF8szDe0TJssPkMYcJ4vsg/v6+bcZR6t4nCZNGyoeJkW+hzCPYhW3LzT3kox2UcAYxu91qmG8j3dR6N3wxEy0aAdQPRW1hUgiC7UJN+e1z/sfg2eD8hm5Thqc9nObgfDzonhI2WY2fu6zr2NLmeiquj4d4ovBC3RRyWAzVEinvjkLZ9UI/T4eF1AEiIKHYvXJdRNW3VYijFkN593UKLqCgqCZqouEQc/lYmygz7RXBWzDkorNLgcobazzUaao+/GuZRoOINDsgpdQiVoUywqvxuoVWmh7TE6drmvMccHdHTl+Hndz5d6vGOW8WmWj2uWV8ZG2G8NhL+XBn++Hn1374UfxRtYLBN49qbeHrBXYvgAaSvH84WwrafVht4dJLsnko+L5DWafm9f/2PvpVYvDE9sDpRO49n6igdRW7C+tOU16D1A/TN6B0vtu3LawS858Xuk/BIn8Ps7CbDdzbdzAimEUDlVhomYhv/HBXuAwPVjv5GH3jby0F8fxPTNn8TvoLV3ovXIaP3xC/5nANBfEwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6e918f71534062101bbe31f0a0490eff"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=70f0c23953c422101bbe31f0a0490e87"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=70f0c23953c422101bbe31f0a0490e87"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=70f0c23953c422101bbe31f0a0490e87"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=70f0c23953c422101bbe31f0a0490e87"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_70f0c23953c422101bbe31f0a0490e87</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 16:44:47</sys_created_on>
+        <sys_id>326186f953c422101bbe31f0a0490e80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 16:44:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_70f0c23953c422101bbe31f0a0490e87</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 16:44:47</sys_created_on>
+        <sys_id>aa6186f953c422101bbe31f0a0490e7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 16:44:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_70f0c23953c422101bbe31f0a0490e87</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 16:44:47</sys_created_on>
+        <sys_id>b26186f953c422101bbe31f0a0490e8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 16:44:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_70f0c23953c422101bbe31f0a0490e87"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_70f0c23953c422101bbe31f0a0490e87"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Send notification to teams when a Nexthink cluster goes down</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>ada_nexthink_cluster_down</internal_name>
+        <label_cache>[{"name":"Updated_1.current.u_status_page_url","label":"Trigger - Record Updated➛Ada NXT Instances Record➛Status page URL","reference":"","reference_display":"Status page URL","type":"url","base_type":"url","parent_table_name":"u_ada_nxt_instances","column_name":"u_status_page_url","usedInstances":{}},{"name":"Updated_1.current.u_region","label":"Trigger - Record Updated➛Ada NXT Instances Record➛Region","reference":"","reference_display":"Region","type":"string","base_type":"string","parent_table_name":"u_ada_nxt_instances","column_name":"u_region","usedInstances":{"e13b07a6-ef1d-4f4a-b02f-f7810efa0712":["ah_message"]}}]</label_cache>
+        <master>true</master>
+        <name>Ada Nexthink cluster down</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Ada Nexthink cluster down">70f0c23953c422101bbe31f0a0490e87</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:29:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3f924735534062101bbe31f0a0490ef9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:29:40</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=3f924735534062101bbe31f0a0490ef9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3f924735534062101bbe31f0a0490ef9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3f924735534062101bbe31f0a0490ef9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3f924735534062101bbe31f0a0490ef9^sys_idNOT INbb924735534062101bbe31f0a0490efa"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3f924735534062101bbe31f0a0490ef9</id>
+        <name>Ada Nexthink cluster down</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:29:40</sys_created_on>
+        <sys_id>bb924735534062101bbe31f0a0490efa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:29:40</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=bb924735534062101bbe31f0a0490efa"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=3f924735534062101bbe31f0a0490ef9^sys_idNOT IN3f928735534062101bbe31f0a0490e0e,7f924735534062101bbe31f0a0490efb,bf928735534062101bbe31f0a0490e07"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Ada Nexthink cluster down">3f924735534062101bbe31f0a0490ef9</model>
+        <model_id>3f924735534062101bbe31f0a0490ef9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_3f924735534062101bbe31f0a0490ef9</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:29:40</sys_created_on>
+        <sys_id>3f928735534062101bbe31f0a0490e0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:29:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3f928735534062101bbe31f0a0490e0e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Ada Nexthink cluster down">3f924735534062101bbe31f0a0490ef9</model>
+        <model_id>3f924735534062101bbe31f0a0490ef9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_3f924735534062101bbe31f0a0490ef9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:29:40</sys_created_on>
+        <sys_id>7f924735534062101bbe31f0a0490efb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:29:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7f924735534062101bbe31f0a0490efb"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Ada Nexthink cluster down">3f924735534062101bbe31f0a0490ef9</model>
+        <model_id>3f924735534062101bbe31f0a0490ef9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_3f924735534062101bbe31f0a0490ef9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:29:40</sys_created_on>
+        <sys_id>bf928735534062101bbe31f0a0490e07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:29:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bf928735534062101bbe31f0a0490e07"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=3f924735534062101bbe31f0a0490ef9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3f924735534062101bbe31f0a0490ef9"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=3f924735534062101bbe31f0a0490ef9^sys_idNOT IN73928735534062101bbe31f0a0490e1b"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Ada Nexthink cluster down">3f924735534062101bbe31f0a0490ef9</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:29:40</sys_created_on>
+        <sys_id>73928735534062101bbe31f0a0490e1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:29:40</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=3f924735534062101bbe31f0a0490ef9^sys_idNOT IN77928735534062101bbe31f0a0490e1a"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Post a Message">549822431324030039a039ed9344b085</action_type>
+        <action_type_parent display_value="Post a Message">23be39c713e0030039a039ed9344b058</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>549822431324030039a039ed9344b085</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ada Nexthink cluster down">3f924735534062101bbe31f0a0490ef9</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:29:40</sys_created_on>
+        <sys_id>77928735534062101bbe31f0a0490e1a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:29:40</sys_updated_on>
+        <ui_id>e13b07a6-ef1d-4f4a-b02f-f7810efa0712</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1XXW/aSBT9KyM/bSVs/AW287RRaNXdbYkUSLZRW1nzZezN2OPY4wBF/Pe9xoaEkFKQ9mGFeOBhru/cOffMOdf460JLmHah9f3At23XsRzbNR3TdAIMP84Cx3WJ6ftaR8twyiETx+GUk1jKh7AqBMSfsKjqB7FSeXnR7WZ8puIkezDaNENGUUK5QWXabUPE7uK+QzyfOrrNLKa7zLZ033GJ7vZwwIntBwEhv1uO43vEDnTfZoHuUtzTgwibOvFIr+/0PNfmUfePDCon2eTvpnbXpjbHJgsodV3Xow6h2PM8alvMwRGnVtf1fG7bfaJTAqe61IP6HiO6H7ieE9h9n5l+986W7+8/3ke9qXtzeXfbe4h89/ExHo7wP9kssZ3BfSX9L4pP0gdmWkADS8pc4PndmY2aDRonghU80y6+fu9oOS5APIoX2sXi1aND1Scw4QJS277Q7c2nPZpU87yOl6oAKtr1p7bCaB2UBasRmR0N7ohnjAOUCIuSd7QUZwwrWcw3kYJjdp2J5wBcqoJqWp08K5MfcJ5vmmadGXFoj/Lm6WYZtgppwtEAKwxQKqqqok2lsQRplA0xjEe4EurqZaxJuM5VIrNmi8JErHdLUaXZsGFE2xRYCxIiVQkgeF63WmNvG4lGsZzerFF+SLIVK+1DISkWmxVWwB2pVI1noXHBUygUpjjPgdEwL+RTstoMWFJjImBhREJO4dAymWQGpjVwA5jFxgeID1bhO1wkdRefoQxsXna0cl5eCVyWz70AieFjVSNpOmt7CBsa6i20SHJ1CQc88RbustPOtsjdpy5CtnSkEgWEPk+18fvRGOlo2NoYXYmqBCGjgZxmu67/RfZxrjgA99oV4xb1bh/HOME6O+G0nUDMfYqi3paCUl6WePLSCwOOC/Sn5KDwccyfVU5blWOF0GJxm0NbnIWWQasCmFRGFRZ8Av0ul7GsSiAIzWVVIAq7ZMqLDvoLZzKfd1BSouH1GLXyqBNxhr5pl0Kg0RyOSEt0DczgmjwsvmmoxWigXSv+v8EeNwkOuLf1JPi8ubW3bvKYaWCfp8FJToN1sIb6Qhywemt0LDfDw9n7OmLRluSall59Ieya9GgnHABi7YTLFYSdP4pbyI7xg3P2w0n6YSNwv7dPW5H3loxWgWeFD6VKovnmZQMwdyT/VspxHjgA5ysPDBuUP0N/jAvcswtO2wWuFfj9n6rLdLa/MmJoKgQuZRHGfBb+t8P+ACibD6AaCLqqgaDfPvLZu1/BPEbzvbPmT1Pz3/8FMDrM7P8UAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=77928735534062101bbe31f0a0490e1a"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=3f924735534062101bbe31f0a0490ef9"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=3f924735534062101bbe31f0a0490ef9"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3f924735534062101bbe31f0a0490ef9"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3f924735534062101bbe31f0a0490ef9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3f924735534062101bbe31f0a0490ef9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:29:40</sys_created_on>
+        <sys_id>73928735534062101bbe31f0a0490e13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:29:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3f924735534062101bbe31f0a0490ef9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:29:40</sys_created_on>
+        <sys_id>77928735534062101bbe31f0a0490e0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:29:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3f924735534062101bbe31f0a0490ef9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:29:40</sys_created_on>
+        <sys_id>f7928735534062101bbe31f0a0490e05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:29:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3f924735534062101bbe31f0a0490ef9"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3f924735534062101bbe31f0a0490ef9"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>70f0c23953c422101bbe31f0a0490e87</sys_id>
+        <latest_snapshot>3f924735534062101bbe31f0a0490ef9</latest_snapshot>
+        <compiler_build/>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=70f0c23953c422101bbe31f0a0490e87^sys_idNOT IN08a28735534062101bbe31f0a0490e60"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan/>
+        <plan_id>70f0c23953c422101bbe31f0a0490e87</plan_id>
+        <snapshot>3f924735534062101bbe31f0a0490ef9</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:29:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>08a28735534062101bbe31f0a0490e60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:29:41</sys_updated_on>
+        <trigger display_value="">84a28735534062101bbe31f0a0490e5e</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=70f0c23953c422101bbe31f0a0490e87"/>
+</record_update>

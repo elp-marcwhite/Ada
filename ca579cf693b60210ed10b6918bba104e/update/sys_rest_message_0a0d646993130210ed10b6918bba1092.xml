@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <authentication_type>oauth2</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description>Uses the Nexthink NQL API to fetch the collector_uid for the device passed as a parameter from Nexthink</description>
+        <name>Nexthink Get Device collector UID</name>
+        <oauth2_profile display_value="Ellipsys">e5cb4ad9534612101bbe31f0a0490efc</oauth2_profile>
+        <protocol_name/>
+        <rest_endpoint>https://${instance}.api.${region}.nexthink.cloud/api/v1/nql/execute</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-09 13:00:40</sys_created_on>
+        <sys_id>0a0d646993130210ed10b6918bba1092</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Nexthink Get Device collector UID</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>sys_rest_message_0a0d646993130210ed10b6918bba1092</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 17:27:16</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

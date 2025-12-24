@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="DELETE">
+        <before>false</before>
+        <description>Posts message to Teams channel that a cluster is down</description>
+        <name>Ada NXT Send cluster down messages</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    // Define the message content
+    var message = "TESTING IGNORE - Cluster is down " ;
+
+    // Create a new Integration Hub action
+    var teamsAction = new sn_ms_teams.TeamsAction();
+    teamsAction.postMessage({
+        channel: "19%3Aa17d990b27eb49c4aee4d1265c3ed089%40thread.skype",
+        text: message
+    });
+
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 20:51:43</sys_created_on>
+        <sys_id>4539fe7d53cc22101bbe31f0a0490ea2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Ada NXT Send cluster down messages</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>sys_script_fix_4539fe7d53cc22101bbe31f0a0490ea2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 20:51:51</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_es_latest_script action="DELETE">
+        <id>4539fe7d53cc22101bbe31f0a0490ea2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 20:51:43</sys_created_on>
+        <sys_id>ffe932bd53cc22101bbe31f0a0490e5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 20:51:43</sys_updated_on>
+        <table>sys_script_fix</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ada">ca579cf693b60210ed10b6918bba104e</application>
+        <file_path/>
+        <instance_id>34d147931b1a3d50c84543f4bd4bcb6c</instance_id>
+        <instance_name>dev210062</instance_name>
+        <name>sys_script_fix_4539fe7d53cc22101bbe31f0a0490ea2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_fix"&gt;&lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;&lt;before&gt;false&lt;/before&gt;&lt;description&gt;Posts message to Teams channel that a cluster is down&lt;/description&gt;&lt;name&gt;Ada NXT Send cluster down messages&lt;/name&gt;&lt;record_for_rollback&gt;true&lt;/record_for_rollback&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+    // Define the message content
+    var message = "TESTING IGNORE - Cluster is down " ;
+
+    // Create a new Integration Hub action
+    var teamsAction = new sn_ms_teams.TeamsAction();
+    teamsAction.postMessage({
+        channel: "19%3Aa17d990b27eb49c4aee4d1265c3ed089%40thread.skype",
+        text: message
+    });
+
+})(current, previous);
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_fix&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 20:51:43&lt;/sys_created_on&gt;&lt;sys_id&gt;4539fe7d53cc22101bbe31f0a0490ea2&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ada NXT Send cluster down messages&lt;/sys_name&gt;&lt;sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e"&gt;ca579cf693b60210ed10b6918bba104e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Ada"&gt;ca579cf693b60210ed10b6918bba104e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_fix_4539fe7d53cc22101bbe31f0a0490ea2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 20:51:51&lt;/sys_updated_on&gt;&lt;unloadable&gt;false&lt;/unloadable&gt;&lt;/sys_script_fix&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;4539fe7d53cc22101bbe31f0a0490ea2&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 20:51:43&lt;/sys_created_on&gt;&lt;sys_id&gt;ffe932bd53cc22101bbe31f0a0490e5a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 20:51:43&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_fix&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1480168461</payload_hash>
+        <record_name>Ada NXT Send cluster down messages</record_name>
+        <reverted_from/>
+        <source>dc71a83e93b60210ed10b6918bba10c4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 20:51:51</sys_created_on>
+        <sys_id>bdf9bafd53cc22101bbe31f0a0490e8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1955dc783f70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 20:51:51</sys_updated_on>
+        <type>Fix Script</type>
+        <update_guid>35f9bafd34cc2210f98eab08bc5aaa8f</update_guid>
+        <update_guid_history>35f9bafd34cc2210f98eab08bc5aaa8f:-1480168461,bfe9bafdd9cc22106fa923fbac231d89:13760451</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 20:52:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
+        <sys_id>01fb2af7bba340ea85fc19fc22d9c2b9</sys_id>
+        <sys_metadata>4539fe7d53cc22101bbe31f0a0490ea2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ada NXT Send cluster down messages</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_scope_delete display_value="">865270564cff4b00922943a398a24310</sys_scope_delete>
+        <sys_update_name>sys_script_fix_4539fe7d53cc22101bbe31f0a0490ea2</sys_update_name>
+        <sys_update_version display_value="sys_script_fix_4539fe7d53cc22101bbe31f0a0490ea2">bdf9bafd53cc22101bbe31f0a0490e8f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 20:52:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

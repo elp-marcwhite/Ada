@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dcbe921e93cb4210ed10b6918bba107c" label="Ada Value Subcategory" max_length="40" name="u_value_category" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="How  / Why ?" max_length="1000" name="u_value_how" type="string"/>
+        <element attributes="encode_utf8=false" label="Value Category" max_length="32" name="u_value_category" reference="u_ada_value_category" type="reference"/>
+        <element display="true" label="Value Subcategory" max_length="100" name="u_value_subcategory" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="0 - Reactive" label="DEX Maturity" max_length="40" name="u_dex_maturity" type="string">
+            <choice>
+                <element inactive_on_update="false" label="4 - Strategic" sequence="4" value="4 - Strategic"/>
+                <element inactive_on_update="false" label="2 - Proactive" sequence="2" value="2 - Proactive"/>
+                <element inactive_on_update="false" label="0 - Reactive" sequence="0" value="0 - Reactive"/>
+                <element inactive_on_update="false" label="3 - Preventative" sequence="3" value="3 - Preventative"/>
+                <element inactive_on_update="false" label="1 - Reactive+" sequence="1" value="1 - Reactive+"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_value_category"/>
+        </index>
+    </element>
+</database>

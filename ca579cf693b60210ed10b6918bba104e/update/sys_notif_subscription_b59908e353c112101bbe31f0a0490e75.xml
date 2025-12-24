@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notif_subscription">
+    <sys_notif_subscription action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <affected_record>03a9e40d3790200044e0bfc8bcbe5d6c</affected_record>
+        <affected_table>cmdb_ci</affected_table>
+        <condition/>
+        <devices>a8c4bb04e412021008dda4ccc400809f</devices>
+        <filter/>
+        <name>Subscription to SENATORMARC</name>
+        <notification display_value="CI affected">8e0a46fa0a0a0286002d78c0934d827c</notification>
+        <schedule/>
+        <sys_class_name>sys_notif_subscription</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-10 15:22:16</sys_created_on>
+        <sys_id>b59908e353c112101bbe31f0a0490e75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Subscription to SENATORMARC</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>sys_notif_subscription_b59908e353c112101bbe31f0a0490e75</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-10 15:22:16</sys_updated_on>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+    </sys_notif_subscription>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>grab status from &lt;div class="page-status status-none"&gt;   &lt;span class="status font-large"&gt;               All Systems Operational&#13;
+</description>
+        <name>NXT Ada Get AWS instance status</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[// Loop through Ada NXT Instances table to get list of AWS sites, and for each
+//   Check status using HTTP request to its Status URL
+//   Update the record
+
+var url_to_check = '';
+var gdt = new GlideDateTime();
+gs.info('Current date and time (UTC): ' + gdt.getValue());
+gs.info('Current date and time (local): ' + gdt.getDisplayValue());
+
+var gr = new GlideRecord('u_ada_nxt_instances');
+gr.query();
+while (gr.next()) {
+    url_to_check = 	gr.u_status_page_url ;
+	var request = new GlideHTTPRequest(url_to_check);
+	var response = request.get();
+	var responseBody = response.getBody();
+	var searchString = "All Systems Operational";
+
+	if (responseBody.includes(searchString)) {
+	//	gs.info('Found the string: ' + searchString + ' on ' + gr.u_status_page_url);
+		gr.u_all_operational = true ;
+	} else {
+	//	gs.info('String not found.');
+		gr.u_all_operational = false ;
+	}
+
+	gr.u_last_operational_check = gdt.getValue() ;
+
+    gr.update();
+
+}
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 13:57:42</sys_created_on>
+        <sys_id>425eb574538022101bbe31f0a0490e29</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name>NXT Ada Get AWS instance status</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_update_name>sys_script_fix_425eb574538022101bbe31f0a0490e29</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 16:13:16</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>425eb574538022101bbe31f0a0490e29</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 13:57:42</sys_created_on>
+        <sys_id>866e3d30538022101bbe31f0a0490e5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 13:57:42</sys_updated_on>
+        <table>sys_script_fix</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

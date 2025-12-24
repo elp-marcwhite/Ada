@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0f4c5faf93401210ed10b6918bba1035" label="Ada Value Tracking" max_length="40" name="u_ada_value_tracking" type="collection">
+        <element label="Use Case" max_length="32" name="u_use_case" reference="u_ada_customer_use_cases" type="reference"/>
+        <element label="Execution Count" max_length="40" name="u_execution_count" type="integer"/>
+        <element label="Value Category" max_length="32" name="u_value_category" reference="u_ada_value_category" type="reference"/>
+        <element label="Engagement" max_length="32" name="u_engagement" reference="u_ada_delivery_engagements" type="reference"/>
+        <element label="Value Subcategory" max_length="32" name="u_value_subcategory" reference="u_value_category" type="reference"/>
+        <element display="true" label="Execution Month" max_length="40" name="u_execution_month" type="glide_date"/>
+        <element label="Customer" max_length="32" name="u_customer" reference="core_company" type="reference"/>
+        <index name="index">
+            <element name="u_customer"/>
+        </index>
+        <index name="index2">
+            <element name="u_engagement"/>
+        </index>
+        <index name="index3">
+            <element name="u_use_case"/>
+        </index>
+        <index name="index4">
+            <element name="u_value_category"/>
+        </index>
+        <index name="index5">
+            <element name="u_value_subcategory"/>
+        </index>
+    </element>
+</database>

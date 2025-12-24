@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f5442d60931f4210ed10b6918bba10ef" label="Ada Library Remote Actions" max_length="40" name="u_ada_library_remote_actions" type="collection">
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Campaign Dependencies" max_length="1024" name="u_dependencies" reference="u_ada_library_campaigns" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Further information" max_length="300" name="u_further_information" type="string"/>
+        <element display="true" label="Remote action name" max_length="100" name="u_remote_action_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="300" name="u_description" type="string"/>
+    </element>
+</database>
