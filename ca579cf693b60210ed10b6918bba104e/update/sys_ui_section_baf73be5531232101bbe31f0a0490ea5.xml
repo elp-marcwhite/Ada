@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="baf73be5531232101bbe31f0a0490ea5" sys_domain="global" table="u_vdi_systems" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_vdi_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-07 23:16:45</sys_created_on>
+            <sys_id>0ff73be5531232101bbe31f0a0490ead</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vdi_systems" sys_domain="global" view="Default view">baf73be5531232101bbe31f0a0490ea5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-07 23:16:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_description</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-07 23:18:06</sys_created_on>
+            <sys_id>7e48f329531232101bbe31f0a0490e71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vdi_systems" sys_domain="global" view="Default view">baf73be5531232101bbe31f0a0490ea5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-07 23:18:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_vdi_systems</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-07 23:16:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>baf73be5531232101bbe31f0a0490ea5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_vdi_systems</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+            <sys_update_name>sys_ui_section_baf73be5531232101bbe31f0a0490ea5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-07 23:16:45</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

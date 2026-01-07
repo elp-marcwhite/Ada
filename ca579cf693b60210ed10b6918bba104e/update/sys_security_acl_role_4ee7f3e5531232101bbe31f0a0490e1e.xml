@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-07 23:16:25</sys_created_on>
+        <sys_id>4ee7f3e5531232101bbe31f0a0490e1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_vdi_systems.u_vdi_systems_user</sys_name>
+        <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+        <sys_security_acl display_value="u_vdi_systems">42e7f3e5531232101bbe31f0a0490e18</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4ee7f3e5531232101bbe31f0a0490e1e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-07 23:16:25</sys_updated_on>
+        <sys_user_role display_value="u_vdi_systems_user" name="u_vdi_systems_user">dde7fba5531232101bbe31f0a0490e1f</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
