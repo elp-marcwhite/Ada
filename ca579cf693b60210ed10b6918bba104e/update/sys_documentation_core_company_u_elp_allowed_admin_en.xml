@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_elp_allowed_admin" label="ELP allowed Admin" language="en" table="core_company">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_elp_allowed_admin</element>
+            <help/>
+            <hint>Are ellipsys Service Delivery Directors allowed the Admin role and the ability to create content ?</hint>
+            <label>ELP allowed Admin</label>
+            <language>en</language>
+            <name>core_company</name>
+            <plural>ELP allowed Admins</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-09 13:13:28</sys_created_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>ELP allowed Admin</sys_name>
+            <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+            <sys_update_name>sys_documentation_core_company_u_elp_allowed_admin_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-09 13:16:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

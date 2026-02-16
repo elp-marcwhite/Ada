@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_elp_test_devices_allowed" label="ELP test devices allowed" language="en" table="core_company">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_elp_test_devices_allowed</element>
+            <help/>
+            <hint>Are ellipsys test devices allowed to run Collectors and report into the customer instance ?</hint>
+            <label>ELP test devices allowed</label>
+            <language>en</language>
+            <name>core_company</name>
+            <plural>ELP test devices allowed</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-09 13:13:28</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>ELP test devices allowed</sys_name>
+            <sys_package display_value="Ada" source="ca579cf693b60210ed10b6918bba104e">ca579cf693b60210ed10b6918bba104e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ada">ca579cf693b60210ed10b6918bba104e</sys_scope>
+            <sys_update_name>sys_documentation_core_company_u_elp_test_devices_allowed_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-09 13:14:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

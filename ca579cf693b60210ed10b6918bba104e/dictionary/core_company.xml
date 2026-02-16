@@ -2,14 +2,24 @@
     <element attributes="all_tables.text_index_translations=true,global_search_config_handler=CompanySearchConfig,kagami_csindex_enabled=true,slushbucket_omit_embedded=true" create_roles="user_admin" db_object_id="3254bb00e412021008dda4ccc40080d3" label="Company" max_length="40" name="core_company" text_index="true" type="collection">
         <element attributes="encode_utf8=false" label="Support Account Manager" max_length="32" name="u_support_account_manager" reference="sys_user" type="reference"/>
         <element label="Use logo on reports" max_length="40" name="u_use_logo" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Security concerns" max_length="1000" name="u_security_concerns" type="string"/>
         <element attributes="encode_utf8=false" hint="Level 2 / Level 3 engineer who continuously tracks key metrics and sentiment data to proactively detect issues affecting IT services. These roles will exist in multiple IT service and product areas and contribute to the &#13;&#10;development of improvement plans in partnership with other IT teams. As the steward of the DEX Score, the Proactive Analyst empowers service teams to identify and resolve problems before employees even become aware of them." label="DEX Proactive Analyst" max_length="32" name="u_proactive_analyst" reference="sys_user" reference_qual="u_nexthinker!=true^u_ellipster!=true^active=true^EQ" reference_qual_condition="u_nexthinker!=true^u_ellipster!=true^active=true^EQ" type="reference"/>
         <element attributes="encode_utf8=false" label="Nexthink Admin" max_length="32" name="u_nexthink_admin" reference="sys_user" reference_qual="u_nexthinker!=true^u_ellipster!=true^active=true^EQ" reference_qual_condition="u_nexthinker!=true^u_ellipster!=true^active=true^EQ" type="reference"/>
+        <element label="Surface" max_length="40" name="u_surface" type="boolean"/>
         <element attributes="encode_utf8=false" hint="VP or CTO responsible for the success of DEXOps transformation across the organization as well as to enhance it.  The DEX Sponsor is a strategic role that communicates value from Digital Employee Experience to the Company Board of Directors and C-suite." label="DEX Sponsor" max_length="32" name="u_dex_coe_officer_lead" reference="sys_user" reference_qual="u_ellipster!=true^u_nexthinker!=true^active=true^EQ" reference_qual_condition="u_ellipster!=true^u_nexthinker!=true^active=true^EQ" type="reference"/>
         <element attributes="encode_utf8=false" label="DEX Technical Analyst" max_length="32" name="u_technical_analyst" reference="sys_user" reference_qual="u_nexthinker!=true^u_ellipster!=true^active=true^EQ" reference_qual_condition="u_nexthinker!=true^u_ellipster!=true^active=true^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="u_description" type="string"/>
+        <element attributes="encode_utf8=false" label="Product Owner" max_length="32" name="u_product_owner" reference="sys_user" reference_qual="active=true^u_ellipster=true^EQ" reference_qual_condition="active=true^u_ellipster=true^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="PROD Status page URL" max_length="1024" name="u_status_page_url" type="url"/>
+        <element label="Firefox" max_length="40" name="u_firefox" type="boolean"/>
+        <element label="Opera" max_length="40" name="u_opera" type="boolean"/>
+        <element label="Chrome" max_length="40" name="u_chrome" type="boolean"/>
+        <element label="Internet Explorer" max_length="40" name="u_internet_explorer" type="boolean"/>
+        <element label="MacOS" max_length="40" name="u_macs" type="boolean"/>
         <element attributes="encode_utf8=false" label="Customer Success Manager" max_length="32" name="u_customer_success_manager" reference="sys_user" reference_qual="active=true^u_nexthinker=true^title=Customer Success Manager^EQ" reference_qual_condition="active=true^u_nexthinker=true^title=Customer Success Manager^EQ" type="reference"/>
         <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="VDI" max_length="1024" name="u_vdi" type="glide_list"/>
+        <element label="Edge" max_length="40" name="u_edge" type="boolean"/>
+        <element label="Safari" max_length="40" name="u_safari" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Industry" max_length="40" name="u_industry" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Key Success Imperative 1" max_length="120" name="u_ksi_1" type="string"/>
         <element attributes="encode_utf8=false" hint="IT, Corporate Communications, or Marketing Team Member responsible for hearing and amplifying the voice of the &#13;&#10;employees. They actively gather employee feedback and provide valuable insights for DEX improvement initiatives.&#13;&#10;The Sentiment Analyst is the link between employees and the DEXOps team, a vital role in the team’s ability to assess and improve user experience." label="Sentiment Analyst" max_length="32" name="u_sentiment_analyst" reference="sys_user" reference_qual="u_nexthinker!=true^u_ellipster!=true^active=true^EQ" reference_qual_condition="u_nexthinker!=true^u_ellipster!=true^active=true^EQ" type="reference"/>
@@ -30,16 +40,34 @@
         </element>
         <element attributes="encode_utf8=false" label="Solutions Consultant" max_length="32" name="u_solutions_consultant" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="Implementer" max_length="32" name="u_platform_builder" reference="sys_user" type="reference"/>
+        <element label="HP" max_length="40" name="u_hp" type="boolean"/>
+        <element label="Mobile" max_length="40" name="u_mobile" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="DEV Cluster name" max_length="40" name="u_dev_cluster_name" type="string"/>
+        <element label="Lenovo" max_length="40" name="u_lenovo" type="boolean"/>
+        <element label="Zoom" max_length="40" name="u_zoom" type="boolean"/>
+        <element hint="Are ellipsys test devices allowed to run Collectors and report into the customer instance ?" label="ELP test devices allowed" max_length="40" name="u_elp_test_devices_allowed" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Key Success Imperative 3" max_length="120" name="u_ksi_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Email" hint="Primary communications channel (Federated Teams, Slack, Email)" label="Primary communications channel" max_length="40" name="u_comms_channel" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Zoom (Customer)" sequence="3" value="Zoom (Customer)"/>
+                <element inactive_on_update="false" label="Federated Teams" sequence="0" value="Federated Teams"/>
+                <element inactive_on_update="false" label="TBD" sequence="4" value="TBD"/>
+                <element inactive_on_update="false" label="Email" sequence="2" value="Email"/>
+                <element inactive_on_update="false" label="Slack" sequence="1" value="Slack"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Key Success Imperative 4" max_length="120" name="u_ksi_4" type="string"/>
+        <element hint="Is this customer instance allowed to send webhooks (log tickets) to the Ellipsys Test ServiceNow instance  ?" label="Use Ellipsys test ServiceNow" max_length="40" name="u_elp_test_snow" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Key Success Imperative 2" max_length="120" name="u_ksi_2" type="string"/>
+        <element hint="Are ellipsys Service Delivery Directors allowed the Admin role and the ability to create content ?" label="ELP allowed Admin" max_length="40" name="u_elp_allowed_admin" type="boolean"/>
         <element label="Ada" max_length="40" name="u_ada" type="boolean"/>
+        <element label="Dell" max_length="40" name="u_dell" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="PROD Cluster name" max_length="40" name="u_cluster_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="DEV Status page URL" max_length="1024" name="u_dev_stauts_url" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="DEV Region" max_length="40" name="u_dev_region" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="PROD instance name" max_length="40" name="u_prod_name" type="string"/>
         <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Value Subcategory" max_length="1024" name="u_value_subcategory" reference="u_value_category" type="glide_list"/>
+        <element label="Teams" max_length="40" name="u_teams" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="UNKNOWN" label="PROD Region" max_length="40" name="u_region" type="string">
             <choice>
                 <element inactive_on_update="false" label="eu-west-3" value="eu-west-3"/>
@@ -73,15 +101,18 @@
             <element name="u_proactive_analyst"/>
         </index>
         <index name="index7">
-            <element name="u_sentiment_analyst"/>
+            <element name="u_product_owner"/>
         </index>
         <index name="index8">
-            <element name="u_solutions_consultant"/>
+            <element name="u_sentiment_analyst"/>
         </index>
         <index name="index9">
-            <element name="u_support_account_manager"/>
+            <element name="u_solutions_consultant"/>
         </index>
         <index name="index10">
+            <element name="u_support_account_manager"/>
+        </index>
+        <index name="index11">
             <element name="u_technical_analyst"/>
         </index>
     </element>
